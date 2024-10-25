@@ -106,7 +106,6 @@ padding: 0 7% 0 0;
   margin:0 0 0 12%;
  width: 2%;
 }
-
 .grid {
     display: grid;
     grid-template-columns: 3fr 3fr 3fr; /* 3 equal columns */
@@ -123,7 +122,6 @@ padding: 0 7% 0 0;
    height: 270px;
    gap: 10px;
    opacity: 0px;
-
   }
   .butn.icon{
     background-color: var(--primary_text_color);
@@ -185,7 +183,6 @@ margin-bottom: 40px;
   margin: 4% 0% 0% 34%;
   width: 450px;
   word-wrap: break-word;
- 
 }
 .butn.blue{
  margin:10% 20% 0% 12%; 
@@ -217,9 +214,7 @@ h1{
     margin-bottom: 25%;
     width:238px;
 height:658px;
-
 opacity: 0px;
-
 }
 .red{
   background-color: var(--danger-line);
@@ -292,7 +287,6 @@ color:var(--ruppe) ;
  align-items: center;
  margin: 15% 0% 0% 0%;
  color: var(--dark);
- 
 }
 .clock.material-symbols-outlined{
   color: var(--primary_text_color);
@@ -301,13 +295,11 @@ color:var(--ruppe) ;
   color: var(--chart);
 }
 .butn.blue.bor{
-  
  border:2px solid var(--primary_text_color);
  margin: 9% 42% 0% 3%;
  border-radius: 25px;
  padding: 2% 3% 3% 6%;
 }
-
 .sub{
   margin-bottom: 90px;
 }
@@ -322,7 +314,6 @@ p.up{
   grid-template-columns: 2fr 2fr 2fr ; /*  equal columns */
     gap: 0%;
     margin-bottom: 20%;
-    
 }
 .fa-solid.fa-heart.fil{
   display: flex;
@@ -367,7 +358,6 @@ p.up{
  p{
   margin: 36px 0 0 23px;
   max-width: 81%;
-  
 }
 h1{
   margin: 36px 0 0 0px;
@@ -397,10 +387,8 @@ h6{
 .fa-solid.fa-circle-check.fix{
   color: var(--dark);
 }
-
 .page li{
   margin: 0 60px 0 0px;
-  
 }
  h1.set{
   padding: 0px 61% 0 0;
@@ -414,6 +402,9 @@ p.boo{
   grid-template-columns: 2fr 2fr ; /*  equal columns */
     gap: 5%;
     margin-bottom: 20%;
+}
+.imgm{
+  border-radius: 76px;
 }
 p.van{
   margin: 25px 0 0 86px;
@@ -441,16 +432,19 @@ p{
   margin: 0 0 0 24%;
 }
 }
-.butn.boat{
-  padding: 3% 47% 49px 1%;
-  color: var(--dark);
-  border-radius: 0;
-  margin:  19px 0 14px 0px;
+.text-bar{
+  padding: 7px 348px 9px 7px;
+  margin: 14px 0 0 20px;
+ width: 688px;
+height: 58px;
+border-radius: 5px 0px 0px 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
 }
 .butn.but_fill.box{
-  position: relative;
-  margin: 19px 32px 0px 0;
-  padding: 21px 35px 5% 3%;
+  position: absolute;
+  margin: 13px 32px 0px 0;
+  padding:6px 6px 5px 6px;;
   border-radius: 0;
 }
 .simp{
@@ -488,5 +482,6 @@ h3.Mar{
 }
 .pin h6{
  margin: 0% 0% 0% 0%;
+ justify-content: center;
  padding: 0 0px 0 424px;
 }
